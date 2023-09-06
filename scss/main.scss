@@ -1,0 +1,30 @@
+/* TIPOGRAFIAS, VARIABLES, FUENTES, COLORES */
+
+@import './assets/tipografias';
+@import './assets/reset';
+@import './assets/titulos';
+@import './assets/dimensions';
+@import './assets/colors';
+
+/* SECCIONES Y PAGINAS */
+
+@import './sections/header';
+@import './sections/main-index';
+@import './sections/galeria';
+@import './sections/autor';
+@import './sections/influencias';
+@import './sections/contacto';
+@import './sections/footer';
+
+/* MEDIA QUERIES - RESPONSIVE */
+
+@import './assets/media-queries';
+
+/* BOOTSTRAP */
+
+@import './assets/bootstrap-carousel';
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+
+

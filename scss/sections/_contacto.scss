@@ -1,0 +1,20 @@
+.about-centrar {
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about-centrar input {
+    border-radius: 15px;
+    padding: 2px 10px;
+}
+
+.about-centrar label {
+    font-family: $merry;
+    color: #F6F6F6;
+}
+
+.about-centrar select {
+    border-radius: 15px;
+}

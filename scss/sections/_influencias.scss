@@ -1,0 +1,77 @@
+.container-grid-img-influencias {
+    display: grid;
+    padding: 5px;
+    padding-bottom: 10px;
+    margin: 20px auto;
+    margin-bottom: 0;
+    width: 1500px;
+    height: 1100px;
+}
+
+.container-grid-img-influencias div {
+    margin: 2px;
+    overflow: hidden;
+}
+
+.container-grid-img-influencias div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.container-grid-img-influencias div p {
+    font-size: 30px;
+    color: rgb(245, 245, 245);
+    font-family: $work-Sans;
+    font-size: 22px;
+    text-justify: distribute-all-lines;
+}
+
+.container-grid-img-influencias {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1.5fr 1.5fr;
+    gap: 5px 5px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "imagen-influencia-1 imagen-influencia-2 imagen-influencia-2 imagen-influencia-2"
+        "texto-influencia-1 imagen-influencia-7 imagen-influencia-3 imagen-influencia-3"
+        "imagen-influencia-4 texto-influencia-3 imagen-influencia-5 imagen-influencia-6";
+}
+
+.texto-influencia-1 {
+    grid-area: texto-influencia-1;
+}
+
+.imagen-influencia-1 {
+    grid-area: imagen-influencia-1;
+}
+
+.imagen-influencia-2 {
+    grid-area: imagen-influencia-2;
+}
+
+.imagen-influencia-3 {
+    grid-area: imagen-influencia-3;
+}
+
+.imagen-influencia-4 {
+    grid-area: imagen-influencia-4;
+}
+
+.texto-influencia-3 {
+    grid-area: texto-influencia-3;
+}
+
+.imagen-influencia-5 {
+    grid-area: imagen-influencia-5;
+}
+
+.texto-influencia-2 {
+    grid-area: texto-influencia-2;
+}
+
+.imagen-influencia-6 {
+    grid-area: imagen-influencia-6;
+}
