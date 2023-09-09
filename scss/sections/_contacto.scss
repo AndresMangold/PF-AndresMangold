@@ -1,3 +1,8 @@
+.fondo {
+    margin-bottom: 0px;
+    background-color: #312f2f;
+}
+
 .about-centrar {
     display: flexbox;
     justify-content: center;
@@ -17,4 +22,9 @@
 
 .about-centrar select {
     border-radius: 15px;
+}
+
+.comentarios {
+    height: 100px;
+    width: 300px;
 }
