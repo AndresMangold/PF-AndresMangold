@@ -28,16 +28,19 @@
     width: 300px;
     height: auto;
     border-radius: 15px;
-    box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.2);
+    padding: 25px 15px 25px 15px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
     transition: transform 0.3 ease;
 }
 
 .muestra-horizontal:hover {
     transform: scale(1.1);
+    transition: transform 0.3s ease;
 }
 
 .muestra:hover {
     transform: scale(1.1);
+    transition: transform 0.3s ease; 
 }
 
 .container-galeria img.muestra-horizontal {
@@ -119,4 +122,8 @@
 
 .img-vertical-12 {
     grid-area: img-vertical-12;
+}
+
+.container-galeria div img{
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
 }

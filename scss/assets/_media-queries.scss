@@ -262,10 +262,10 @@
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
-                height: 10em;
+                height: 9em;
                 width: auto;
                 flex-basis: calc(33.33% - 20px);
-                margin-right: 10px;
+                margin-right: 1px;
 
                 .menu-footer {
                     height: 6em;
@@ -302,7 +302,7 @@
             margin-top: 0;
             height: 11em;
             flex-basis: calc(33.33% - 20px);
-            margin-right: 10px;
+            margin-right: 20px;
             
 
             .mapa-container {
@@ -337,7 +337,7 @@
             align-items: center;
             justify-content: center;
             height: 11em;
-            width: 7em;
+            width: 6em;
             flex-basis: calc(33.33% - 20px);
             margin-right: 10px;
 
@@ -395,7 +395,6 @@
         }
     }
 
-
     /* Main Index - Responsive */
 
     .carousel-inner {
@@ -423,6 +422,41 @@
     .titulo-4 .texto-container p {
         font-size: 10px;
     }
+
+    
+    /* Galería - Responsive */
+    .container-galeria img{
+        padding: 5px 5px 5px 5px;
+        width: 200px;
+        height: auto;
+    }
+
+    .container-galeria {
+        display: grid;
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 5px 3px;
+        grid-template-areas:
+                "img-horizontal-1"
+                "img-horizontal-2"
+                "img-vertical-1"
+                "img-vertical-2"
+                "img-vertical-3"
+                "img-vertical-4"
+                "img-vertical-5"
+                "img-vertical-6"
+                "img-vertical-7"
+                "img-vertical-8"
+                "img-vertical-9"
+                "img-vertical-10"
+                "img-vertical-11"
+                "img-vertical-12";
+        margin: 0 auto;
+        max-width: 70vw;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+
 
     /* Autor - Responsive */
 
