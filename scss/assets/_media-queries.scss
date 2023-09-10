@@ -239,6 +239,9 @@
                         text-align: center;
                     }
                 }
+                .imagen-ladera-titulo-4{
+                    padding-top: 15px;
+                }
             }
         }
     }
@@ -246,6 +249,8 @@
 
     /* Footer - Responsive */
     .footer {
+        height: 100%;
+
         .contenedor-menu-footer-grande {
             display: flex;
             align-items: center;
@@ -259,18 +264,14 @@
                 justify-content: center;
                 height: 10em;
                 width: auto;
-                border: red solid 2px;
                 flex-basis: calc(33.33% - 20px);
                 margin-right: 10px;
-                
 
                 .menu-footer {
-                    height: 8em;
-                    width: 4em;
+                    height: 6em;
+                    width: 6em;
                     display: table-column;
                     justify-content: center;
-                    
-
 
                     li {
                         font-size: 7px;
@@ -279,6 +280,8 @@
 
                         a {
                             font-size: 0;
+                            display: none;
+                            margin-bottom: -5px;
                         }
 
                         i {
@@ -297,8 +300,7 @@
             justify-content: center;
             width: auto;
             margin-top: 0;
-            border: red solid 2px;
-            height: 10em;
+            height: 11em;
             flex-basis: calc(33.33% - 20px);
             margin-right: 10px;
             
@@ -306,13 +308,13 @@
             .mapa-container {
                 text-align: center;
                 height: 6em;
-                width: 8em;
+                width: 7em;
                 padding-bottom: 10px;
 
                 .mapa {
                     height: 100%;
                     width: 100%;
-                    padding-bottom: 10px;
+                    padding-bottom: 15px;
                 }
 
                 .footer-bottom-text {
@@ -334,9 +336,8 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            height: 10em;
+            height: 11em;
             width: 7em;
-            border: red solid 2px;
             flex-basis: calc(33.33% - 20px);
             margin-right: 10px;
 
@@ -376,7 +377,7 @@
                 display: flex;
                 margin-top: 8px;
                 margin-left: 20px;
-                gap: 4px;
+                gap: 1em;
                 align-content: center;
                 align-items: center;
                 justify-items: center;
