@@ -16,7 +16,7 @@
 
         h3 {
             color: #d3d3c3;
-            font-family: "Work Sans";
+            font-family: $work-Sans;
             font-size: 22px;
             text-align: center;
             padding: 3em 0;
@@ -28,6 +28,8 @@
             margin: 0 auto;
             align-items: center;
             padding-bottom: 2em;
+            margin-bottom: 10rem;
+            margin-top: 10rem;
 
             .texto-container {
                 flex: 1;
@@ -36,7 +38,7 @@
 
                 h4 {
                     color: #F6F6F6;
-                    font-family: "Merryweather";
+                    font-family: $merry;
                     font-size: 27px;
                     text-align: center;
                     padding: 25px 0 25px 0;
@@ -69,9 +71,113 @@
                 }
             }
         }
-    }
-}
 
+        .triangle {
+            position: relative;
+            background: #2c3e50;
+            height: 80vh;
+          }
+          
+          .waviy {
+              position: relative;
+              text-align: center;
+              margin-top: 25px;
+              padding-bottom: 25px;
+              max-width: 100%;
+  
+              .grupo{
+                  display: inline-block;
+  
+                  span {
+                    position: relative;
+                    display: inline-block;
+                    font-size: 35px;
+                    font-family: $work-Sans;
+                    color: #fff;
+                    animation: flip 2s infinite;
+                    animation-delay: calc(.3s * var(--i))
+                  }
+              }
+  
+              @keyframes flip {
+                0%,80% {
+                  transform: rotateY(360deg) 
+                }
+              }
+            }
+          }
+          .triangle::before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 60px 60px 0 60px;
+            border-color: #2c3e50 transparent transparent transparent;
+            left: 50%;
+            transform: translateX(-50%);
+          }
+
+          .triangle:hover .card {
+            filter: blur(0.5px); /* Aplica el desenfoque a las tarjetas al hacer hover en la sección */
+          }
+
+          .card {
+            transition: filter 0.3s; /* Agrega una transición suave para el efecto */
+          }
+        
+        /*.en-proceso {
+            display: flex; 
+            justify-content: center; 
+            align-items: center;
+            gap: 5rem; 
+        }
+        
+        .img-proceso img {
+            padding: 25px 25px;
+            width: 450px;
+            height: auto;
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+            border-radius: 15px;
+        }*/
+        .col {
+            --gradient: linear-gradient(to left top, #f1f37c 10%, #b48f3e 90%) !important;
+          }
+          
+          body {
+            background: #111 !important;
+          }
+          
+          .card {
+            background: #222;
+            border: 1px solid #545549;
+            color: rgba(250, 250, 250, 0.8);
+            margin-bottom: 2rem;
+            justify-content: center;
+            align-items: center;
+          }
+          
+          .btn {
+            border: 5px solid;
+            border-image-slice: 1;
+            background: var(--gradient) !important;
+            -webkit-background-clip: text !important;
+            -webkit-text-fill-color: transparent !important;
+            border-image-source:  var(--gradient) !important; 
+            text-decoration: none;
+            transition: all .4s ease;
+          }
+          
+          .btn:hover, .btn:focus {
+                background: var(--gradient) !important;
+            -webkit-background-clip: none !important;
+            -webkit-text-fill-color: #fff !important;
+            border: 5px solid #fff !important; 
+            box-shadow: #222 1px 0 10px;
+            text-decoration: underline;
+          }
+    }
 
 
 

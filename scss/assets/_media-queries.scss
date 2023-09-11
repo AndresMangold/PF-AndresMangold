@@ -423,6 +423,18 @@
         font-size: 10px;
     }
 
+    .waviy {
+        font-size: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .waviy span {
+        width: calc(33.33% - 10px); /* Calcula el ancho de cada span para 3 columnas con espacio entre ellos */
+        margin: 5px; /* Agrega un espacio entre los elementos */
+        text-align: center;
+    }
+
     
     /* Galería - Responsive */
     .container-galeria img{
