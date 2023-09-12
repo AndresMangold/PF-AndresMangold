@@ -119,28 +119,7 @@
             transform: translateX(-50%);
           }
 
-          .triangle:hover .card {
-            filter: blur(0.5px); /* Aplica el desenfoque a las tarjetas al hacer hover en la sección */
-          }
-
-          .card {
-            transition: filter 0.3s; /* Agrega una transición suave para el efecto */
-          }
         
-        /*.en-proceso {
-            display: flex; 
-            justify-content: center; 
-            align-items: center;
-            gap: 5rem; 
-        }
-        
-        .img-proceso img {
-            padding: 25px 25px;
-            width: 450px;
-            height: auto;
-            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
-            border-radius: 15px;
-        }*/
         .col {
             --gradient: linear-gradient(to left top, #f1f37c 10%, #b48f3e 90%) !important;
           }

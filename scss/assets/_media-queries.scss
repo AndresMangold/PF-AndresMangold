@@ -437,36 +437,9 @@
 
     
     /* Galería - Responsive */
-    .container-galeria img{
-        padding: 5px 5px 5px 5px;
-        width: 200px;
-        height: auto;
-    }
 
-    .container-galeria {
-        display: grid;
-        grid-template-columns: 1fr; 
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        gap: 5px 3px;
-        grid-template-areas:
-                "img-horizontal-1"
-                "img-horizontal-2"
-                "img-vertical-1"
-                "img-vertical-2"
-                "img-vertical-3"
-                "img-vertical-4"
-                "img-vertical-5"
-                "img-vertical-6"
-                "img-vertical-7"
-                "img-vertical-8"
-                "img-vertical-9"
-                "img-vertical-10"
-                "img-vertical-11"
-                "img-vertical-12";
-        margin: 0 auto;
-        max-width: 70vw;
-        padding: 5px;
-        box-sizing: border-box;
+    .card-img-top{
+        
     }
 
 
