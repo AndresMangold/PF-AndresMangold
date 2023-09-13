@@ -148,18 +148,18 @@
 
 @media (max-width: 490px) {
     header {
-        height: 20%;
+        
         width: 100%;
     }
 
     body {
-        height: 45%;
+        
         width: 100%;
         overflow-x: hidden;
     }
 
     footer {
-        height: 35%;
+        
         width: 100%;
     }
 
@@ -363,10 +363,8 @@
                     input[type="password"] {
                         width: 60%;
                         height: 12px;
-                        box-sizing: border-box;
                         margin: 0;
                         padding: 6px 5px;
-                        transition: transform 0.3s ease;
                         border: 1px solid #ccc;
                         outline: none;
                     }
@@ -423,24 +421,8 @@
         font-size: 10px;
     }
 
-    .waviy {
-        font-size: 10px;
-        display: flex;
-        flex-wrap: wrap;
-    }
 
-    .waviy span {
-        width: calc(33.33% - 10px); /* Calcula el ancho de cada span para 3 columnas con espacio entre ellos */
-        margin: 5px; /* Agrega un espacio entre los elementos */
-        text-align: center;
-    }
-
-    
     /* Galería - Responsive */
-
-    .card-img-top{
-        
-    }
 
 
     /* Autor - Responsive */
