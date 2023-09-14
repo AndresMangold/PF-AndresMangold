@@ -124,7 +124,7 @@
 
                 .menu-footer {
                     height: 6em;
-                    width: 6em;
+                    width: 10em;
                     display: table-column;
                     justify-content: center;
 
@@ -162,8 +162,8 @@
 
             .mapa-container {
                 text-align: center;
-                height: 6em;
-                width: 7em;
+                height: 7em;
+                width: 14em;
                 padding-bottom: 10px;
 
                 .mapa {
@@ -173,7 +173,7 @@
                 }
 
                 .footer-bottom-text {
-                    font-size: 8px;
+                    font-size: 10px;
                     text-align: center;
                     margin-top: 0;
                     margin: 0;
@@ -216,7 +216,7 @@
 
                     input[type="text"],
                     input[type="password"] {
-                        width: 60%;
+                        width: 80%;
                         height: 12px;
                         margin: 0;
                         padding: 6px 5px;
@@ -229,7 +229,7 @@
             .buttons-session-footer {
                 display: flex;
                 margin-top: 8px;
-                margin-left: 20px;
+                margin-left: 5px;
                 gap: 1em;
                 align-content: center;
                 align-items: center;
@@ -916,7 +916,7 @@
         object-fit: scale-down;
     }
 
-    /* Comentarios - Responsive */
+    /* Contacto - Responsive */
     .about-centrar label {
         font-size: 12px;
     }

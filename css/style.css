@@ -585,7 +585,7 @@ footer {
         margin-right: 1px; }
         .footer .contenedor-menu-footer-grande .redes-sociales .menu-footer {
           height: 6em;
-          width: 6em;
+          width: 10em;
           display: table-column;
           justify-content: center; }
           .footer .contenedor-menu-footer-grande .redes-sociales .menu-footer li {
@@ -610,15 +610,15 @@ footer {
       margin-right: 20px; }
       .footer .mapa-copyr .mapa-container {
         text-align: center;
-        height: 6em;
-        width: 7em;
+        height: 7em;
+        width: 14em;
         padding-bottom: 10px; }
         .footer .mapa-copyr .mapa-container .mapa {
           height: 100%;
           width: 100%;
           padding-bottom: 15px; }
         .footer .mapa-copyr .mapa-container .footer-bottom-text {
-          font-size: 8px;
+          font-size: 10px;
           text-align: center;
           margin-top: 0;
           margin: 0;
@@ -651,7 +651,7 @@ footer {
             font-size: 8px; }
           .footer .log-inicio-foot .inicio-sesion-footer form .input-group input[type="text"],
           .footer .log-inicio-foot .inicio-sesion-footer form .input-group input[type="password"] {
-            width: 60%;
+            width: 80%;
             height: 12px;
             margin: 0;
             padding: 6px 5px;
@@ -660,7 +660,7 @@ footer {
       .footer .log-inicio-foot .buttons-session-footer {
         display: flex;
         margin-top: 8px;
-        margin-left: 20px;
+        margin-left: 5px;
         gap: 1em;
         align-content: center;
         align-items: center;
@@ -1114,7 +1114,7 @@ footer {
     max-width: 100%;
     height: auto;
     object-fit: scale-down; }
-  /* Comentarios - Responsive */
+  /* Contacto - Responsive */
   .about-centrar label {
     font-size: 12px; }
   .about-centrar input not:comentarios {
