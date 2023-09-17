@@ -886,7 +886,7 @@ footer {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 9em;
+        height: 100%;
         width: auto;
         flex-basis: calc(33.33% - 20px);
         margin-right: 1px; }
