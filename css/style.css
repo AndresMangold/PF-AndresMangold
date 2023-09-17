@@ -40,6 +40,7 @@ body {
   width: 100%; }
 
 footer {
+  min-height: 20vh;
   width: 100%; }
 
 .fondo h2, .fondo .h2 {
@@ -857,7 +858,7 @@ footer {
         margin: 0;
         background-color: #1C1C1C; }
       .header .container-header .menu-header li a {
-        font-size: 8px;
+        font-size: 10px;
         gap: 0;
         margin-top: 0;
         padding: 0; }
