@@ -973,7 +973,7 @@ footer {
         align-items: center;
         justify-items: center; }
         .footer .log-inicio-foot .buttons-session-footer input[type="button"] {
-          font-size: 8px;
+          font-size: 7px;
           height: auto;
           padding: 4px 10px;
           text-align: center;
@@ -1140,7 +1140,7 @@ footer {
   justify-items: center; }
 
 .carousel-item img {
-  max-width: 40%;
+  max-width: 60%;
   height: auto;
   margin: auto; }
 
