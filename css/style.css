@@ -987,7 +987,7 @@ footer {
   .carousel-item {
     text-align: center; }
   .carousel-item img {
-    max-width: 70%;
+    max-width: 70% !important;
     height: auto; }
   .titulo-4 {
     flex-direction: column; }
@@ -995,7 +995,6 @@ footer {
     font-size: 1em; }
   .titulo-4 .texto-container p {
     font-size: 10px; }
-  /* Galería - Responsive */
   /* Autor - Responsive */
   .fondo h2, .fondo .h2 {
     font-size: 1.5em;
@@ -1140,7 +1139,7 @@ footer {
   justify-items: center; }
 
 .carousel-item img {
-  max-width: 40%;
+  max-width: 45%;
   height: auto;
   margin: auto; }
 
