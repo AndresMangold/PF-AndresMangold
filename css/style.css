@@ -94,8 +94,6 @@ footer {
       align-items: center;
       width: 100%;
       flex-wrap: nowrap; }
-      .container-header .titulo .responsive-title:hover {
-        transform: scale(1.1); }
   .container-header .searchbar {
     display: flex;
     align-items: center;
