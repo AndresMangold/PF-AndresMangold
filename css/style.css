@@ -113,10 +113,10 @@ footer {
         outline: none;
         border-radius: 20px;
         transition: border-color 0.3s ease;
-        transition: transform 0.3s ease; }
+        box-shadow: 0.3s ease; }
         .container-header .searchbar form input[type="text"]:hover {
-          border-color: #bfd4ee;
-          transform: scale(0.9); }
+          border-color: #e6fc22;
+          box-shadow: 0px 0px 15px rgba(245, 244, 229, 0.7), 0px 5px 15px #fcfadf; }
       .container-header .searchbar form input[type="submit"] {
         padding: 6px 12px;
         background-color: #F6F6F6;
@@ -124,10 +124,7 @@ footer {
         border: none;
         cursor: pointer;
         border-radius: 20px;
-        margin-left: 10px;
-        transition: transform 0.3s ease; }
-        .container-header .searchbar form input[type="submit"]:hover {
-          transform: scale(0.9); }
+        margin-left: 10px; }
   .container-header .area-menu-header {
     display: flex;
     width: 100%;
@@ -214,7 +211,7 @@ footer {
           box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
           margin: 0; }
       .main-contenido-principal .fondo .titulo-4 .imagen-ladera-titulo-4 img {
-        width: 40vw;
+        width: 50rem;
         height: auto;
         margin-left: 20px;
         box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
@@ -678,17 +675,19 @@ footer {
   .carousel-inner {
     display: flex;
     justify-content: space-around; }
-  .carousel-item {
-    text-align: center; }
-  .carousel-item img {
-    max-width: 70%;
-    height: auto; }
+    .carousel-inner .carousel-item {
+      text-align: center; }
+      .carousel-inner .carousel-item img {
+        max-width: 60% !important;
+        height: auto; }
   .titulo-4 {
     flex-direction: column; }
-  .titulo-4 .texto-container h4, .titulo-4 .texto-container .h4 {
-    font-size: 1em; }
-  .titulo-4 .texto-container p {
-    font-size: 10px; }
+    .titulo-4 .texto-container h4, .titulo-4 .texto-container .h4 {
+      font-size: 1em; }
+    .titulo-4 .texto-container p {
+      font-size: 18px !important; }
+    .titulo-4 .imagen-ladera-titulo-4 img {
+      width: 35rem !important; }
   /* Galería - Responsive */
   /* Autor - Responsive */
   .fondo h2, .fondo .h2 {
@@ -810,10 +809,11 @@ footer {
     object-fit: scale-down; }
   /* Comentarios - Responsive */
   .about-centrar label {
-    font-size: 12px; }
-  .about-centrar input not:comentarios {
-    height: 60%; }
-  .comentarios {
+    font-size: 16px; }
+  .about-centrar input:not(.comentarios) {
+    height: 70%;
+    font-size: 16px !important; }
+  .about-centrar .comentarios {
     width: 40%; } }
 
 @media (max-width: 490px) {
@@ -872,6 +872,8 @@ footer {
     text-align: center; }
   .main-contenido-principal .fondo .titulo-4 .imagen-ladera-titulo-4 {
     padding-top: 15px; }
+    .main-contenido-principal .fondo .titulo-4 .imagen-ladera-titulo-4 img {
+      width: 16rem !important; }
   /* Footer - Responsive */
   .footer {
     height: 100%; }
@@ -1116,31 +1118,30 @@ footer {
   /* Contacto - Responsive */
   .about-centrar label {
     font-size: 12px; }
-  .about-centrar input not:comentarios {
-    height: 60%; }
-  .comentarios {
+  .about-centrar input:not(.comentarios) {
+    height: 70%;
+    font-size: 13px !important; }
+  .about-centrar .comentarios {
     width: 60%; } }
 
 /* BOOTSTRAP */
-.carousel-inner .carousel-item {
-  width: 100%;
-  height: auto;
-  align-content: center;
-  align-items: center;
-  justify-content: center;
-  text-align: center; }
-
-.carousel-inner {
-  margin: 0 auto; }
-
 .container .carousel {
   justify-content: space-evenly;
   justify-items: center; }
 
-.carousel-item img {
-  max-width: 45%;
-  height: auto;
-  margin: auto; }
+.carousel-inner {
+  margin: 0 auto; }
+  .carousel-inner .carousel-item {
+    width: 100%;
+    height: auto;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center; }
+    .carousel-inner .carousel-item img {
+      max-width: 40%;
+      height: auto;
+      margin: auto; }
 
 /*!
    * Bootstrap  v5.3.1 (https://getbootstrap.com/)

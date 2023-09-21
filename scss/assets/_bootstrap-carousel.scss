@@ -1,23 +1,26 @@
-.carousel-inner .carousel-item {
-    width: 100%;
-    height: auto;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
+.container{
 
-.carousel-inner {
+    .carousel {
+        justify-content: space-evenly;
+        justify-items: center;
+    }
+
+} 
+.carousel-inner{
     margin: 0 auto;
-}
 
-.container .carousel {
-    justify-content: space-evenly;
-    justify-items: center;
-}
+    .carousel-item {
+        width: 100%;
+        height: auto;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
 
-.carousel-item img {
-    max-width: 45%;
-    height: auto;
-    margin: auto;
-}
+        img {
+           max-width: 40%;
+           height: auto;
+           margin: auto;
+        }
+    }
+} 

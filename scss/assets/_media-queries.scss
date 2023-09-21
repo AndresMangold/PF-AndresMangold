@@ -253,28 +253,38 @@
     .carousel-inner {
         display: flex;
         justify-content: space-around;
-    }
 
-    .carousel-item {
-        text-align: center;
-    }
+        .carousel-item {
+            text-align: center;
 
-    .carousel-item img {
-        max-width: 70%;
-        height: auto;
+            img {
+                max-width: 60% !important;
+                height: auto;
+            }
+        }
     }
 
     .titulo-4 {
         flex-direction: column;
-    }
 
-    .titulo-4 .texto-container h4 {
-        font-size: 1em;
-    }
+        .texto-container{
 
-    .titulo-4 .texto-container p {
-        font-size: 10px;
+            h4 {
+                font-size: 1em;
+            }
+            
+            p {
+                font-size: 18px !important;
+            }
+        } 
+
+        .imagen-ladera-titulo-4 img{
+            width: 35rem !important;
+        }
     }
+    
+
+
 
 
     /* Galería - Responsive */
@@ -448,16 +458,20 @@
     }
 
     /* Comentarios - Responsive */
-    .about-centrar label {
-        font-size: 12px;
-    }
+    .about-centrar{
 
-    .about-centrar input not:comentarios {
-        height: 60%;
-    }
+        label {
+            font-size: 16px;
+        }
 
-    .comentarios {
-        width: 40%;
+        input:not(.comentarios) {
+            height: 70%;
+            font-size: 16px !important;
+        }
+
+        .comentarios {
+            width: 40%;
+        }
     }
 }
 
@@ -563,6 +577,9 @@
                 }
                 .imagen-ladera-titulo-4{
                     padding-top: 15px;
+                    img{
+                        width: 16rem !important;
+                    }
                 }
             }
         }
@@ -911,15 +928,20 @@
     }
 
     /* Contacto - Responsive */
-    .about-centrar label {
-        font-size: 12px;
-    }
+    
+    .about-centrar{
 
-    .about-centrar input not:comentarios {
-        height: 60%;
-    }
+        label {
+            font-size: 12px;
+        }
 
-    .comentarios {
-        width: 60%;
+        input:not(.comentarios) {
+            height: 70%;
+            font-size: 13px !important;
+        }
+
+        .comentarios {
+            width: 60%;
+        }
     }
 }
