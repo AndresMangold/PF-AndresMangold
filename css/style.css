@@ -94,6 +94,8 @@ footer {
       align-items: center;
       width: 100%;
       flex-wrap: nowrap; }
+      .container-header .titulo .responsive-title:hover {
+        text-shadow: 2px 2px 4px rgba(232, 248, 92, 0.932); }
   .container-header .searchbar {
     display: flex;
     align-items: center;
@@ -311,7 +313,7 @@ footer {
   padding-bottom: 10px;
   margin: 20px auto;
   margin-bottom: 0;
-  width: 65vw; }
+  width: 60vw; }
 
 .container-grid-img-influencias div {
   margin: 2px;
@@ -324,7 +326,7 @@ footer {
   border-radius: 25px; }
 
 .container-grid-img-influencias div p {
-  font-size: 19px;
+  font-size: 17px;
   color: whitesmoke;
   font-family: "Work Sans", sans-serif;
   text-justify: distribute-all-lines;

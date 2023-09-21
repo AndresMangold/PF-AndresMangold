@@ -54,6 +54,10 @@
             align-items: center;
             width: 100%;
             flex-wrap: nowrap;
+
+            &:hover{
+                text-shadow: 2px 2px 4px rgba(232, 248, 92, 0.932);
+            }
         }
     }
 
