@@ -71,5 +71,37 @@
         }
       }
     }
+
+    .bg-img {
+      align-items: center;
+      justify-content: center;
+      align-content: center;
+      display: flex;
+      max-height: 50rem;
+      position: relative;
+
+      .img-container {
+        position: relative;
+
+        img {
+          max-width: 50rem;
+          max-height: 60rem;
+          margin-top: 10rem;
+          padding-bottom: 20px;
+          padding-left: 2rem;
+          padding-right: 2rem;
+          margin-bottom: 6rem;
+          transition: transform 1s ease-in-out;
+          border: 2px solid transparent;
+          box-shadow: 0 0 10px 2px transparent;
+
+          &:hover {
+            border: 1px rgba(247, 250, 223, 0.932);
+            box-shadow: 0 0 10px 2px rgba(247, 250, 223, 0.932);
+          }
+
+        }
+      }
+    }
   }
 }

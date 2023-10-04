@@ -218,6 +218,29 @@ footer {
         transition: transform 0.4 ease; }
         .main-contenido-principal .fondo .titulo-4 .imagen-ladera-titulo-4 img:hover img {
           transform: scale(0.9); }
+    .main-contenido-principal .fondo .bg-img {
+      align-items: center;
+      justify-content: center;
+      align-content: center;
+      display: flex;
+      max-height: 50rem;
+      position: relative; }
+      .main-contenido-principal .fondo .bg-img .img-container {
+        position: relative; }
+        .main-contenido-principal .fondo .bg-img .img-container img {
+          max-width: 50rem;
+          max-height: 60rem;
+          margin-top: 10rem;
+          padding-bottom: 20px;
+          padding-left: 2rem;
+          padding-right: 2rem;
+          margin-bottom: 6rem;
+          transition: transform 1s ease-in-out;
+          border: 2px solid transparent;
+          box-shadow: 0 0 10px 2px transparent; }
+          .main-contenido-principal .fondo .bg-img .img-container img:hover {
+            border: 1px rgba(247, 250, 223, 0.932);
+            box-shadow: 0 0 10px 2px rgba(247, 250, 223, 0.932); }
 
 .fondo {
   background-color: #312f2f; }
@@ -307,7 +330,7 @@ footer {
 .container-grid-img-influencias {
   display: grid;
   padding: 5px;
-  padding-bottom: 10px;
+  padding-bottom: 50px;
   margin: 20px auto;
   margin-bottom: 0;
   width: 60vw; }
@@ -559,6 +582,20 @@ footer {
     text-align: center; }
   .main-contenido-principal .fondo .titulo-4 .imagen-ladera-titulo-4 {
     padding-top: 15px; }
+  .main-contenido-principal .fondo .bg-img {
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    position: flex; }
+    .main-contenido-principal .fondo .bg-img .img-container img {
+      max-width: 100%;
+      width: 22rem;
+      max-height: 100%;
+      margin-top: 10rem;
+      padding-bottom: 20px;
+      padding-left: 1rem;
+      padding-right: 1rem; }
   /* Footer - Responsive */
   .footer {
     height: 100%; }
@@ -865,9 +902,26 @@ footer {
     font-size: 12px;
     text-align: center; }
   .main-contenido-principal .fondo .titulo-4 .imagen-ladera-titulo-4 {
-    padding-top: 15px; }
+    padding-top: 15px;
+    margin-bottom: 3rem; }
     .main-contenido-principal .fondo .titulo-4 .imagen-ladera-titulo-4 img {
       width: 16rem !important; }
+  .main-contenido-principal .fondo .bg-img {
+    display: flex;
+    max-width: 30rem;
+    margin-left: 3rem;
+    margin-right: 3rem; }
+    .main-contenido-principal .fondo .bg-img .img-container img {
+      max-height: 25rem;
+      width: 20rem;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      padding-bottom: 20px;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      transition: transform 1s ease-in-out;
+      border: 2px solid transparent;
+      box-shadow: 0 0 10px 2px transparent; }
   /* Footer - Responsive */
   .footer {
     height: 100%; }
